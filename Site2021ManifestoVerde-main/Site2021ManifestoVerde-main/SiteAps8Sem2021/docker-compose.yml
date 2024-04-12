@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  siteaps8sem2021:
+    image: siteaps8sem2021
+    build: .
+    ports: 
+        -8081:80
